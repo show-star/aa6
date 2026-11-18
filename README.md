@@ -4,6 +4,8 @@
 
 Repository: https://github.com/show-star/aa6
 
+📘 **Viva questions and easy explanations for all 6 practicals:** [VIVA.md](VIVA.md)
+
 ## Aim
 
 With **1 control node and 2 managed nodes**: install Ansible on the control node, create an inventory with the 2 servers grouped as `[webservers]`, test them with `ansible all -m ping`, write a playbook `install-packages.yml` that updates the apt cache, installs `apache2`, `curl`, `git` and `vim`, starts and enables Apache and copies a custom `index.html` to `/var/www/html/`, run it, check Apache in the browser, and run it again to prove idempotency (`changed=0`).
